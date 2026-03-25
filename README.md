@@ -56,7 +56,7 @@ navx requests both permissions on first launch and guides you to System Settings
 
 1. Clone the repository and open `navx.xcodeproj` in Xcode.
 2. Build and run the project (`⌘ R`).
-3. navx appears as a window icon (`⬜`) in the macOS menu bar.
+3. navx appears as a window icon ![](https://github.com/syns2191/navx/blob/main/navx/Assets.xcassets/TrayIcon.imageset/16%201.png) in the macOS menu bar.
 4. Grant Accessibility and Screen Recording permissions when prompted.
 
 ## Usage
