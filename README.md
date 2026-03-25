@@ -1,5 +1,7 @@
 # navx
-
+<p align="center">
+  <img src="https://github.com/syns2191/navx/blob/main/navx/Assets.xcassets/AppIcon.appiconset/256.png" alt="navx demo" width="256" />
+</p>
 A lightweight macOS menu bar app for keyboard-driven window management. navx lets you instantly jump to any app or window, navigate virtual workspaces, and search open windows with a Vim-style interface — all without ever touching the mouse.
 
 ![Live Demo](https://github.com/user-attachments/assets/202efe64-3cad-45f0-a408-f63c329555bc)
