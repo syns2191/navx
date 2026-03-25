@@ -9,6 +9,14 @@ A lightweight macOS menu bar app for keyboard-driven window management. navx let
 ### App Shortcuts
 Bind a global hotkey to any running application or specific window. Press the hotkey and navx instantly brings that window to focus, launching the app if it isn't already running.
 
+### Multi-Window App Shortcuts
+When you have multiple windows open from the same app — across different spaces or monitors — navx makes it effortless to jump between them. Instead of hunting through Mission Control or clicking the Dock repeatedly, you can bind shortcuts directly to individual windows of the same app and switch between them instantly.
+
+- **Jump between multiple windows of the same app** with dedicated per-window hotkeys — no more cycling through windows one by one.
+- **Works across different workspaces** — even if your windows are spread across multiple virtual spaces, navx reaches them all.
+- **See a list of all windows from the same app** so you always know what's open and where — pick the one you want in a single keypress.
+- Say goodbye to the headache of managing dozens of windows from the same app. navx keeps everything organized and one shortcut away.
+
 ### Window Switcher (`⌥ /`)
 A Spotlight-style panel that lists all open windows across every app. It ships with a Vim-inspired modal interface:
 
