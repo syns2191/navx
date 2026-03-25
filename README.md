@@ -17,6 +17,14 @@ When you have multiple windows open from the same app — across different space
 - **See a list of all windows from the same app** so you always know what's open and where — pick the one you want in a single keypress.
 - Say goodbye to the headache of managing dozens of windows from the same app. navx keeps everything organized and one shortcut away.
 
+### New Window Detection *(optional)*
+navx can watch for newly opened windows in the background. When a new window appears, it immediately prompts you to register it as a shortcut — so you never have to manually go into Preferences to add it.
+
+- **Automatic detection** — navx listens for new windows the moment they open, across any app.
+- **Instant registration prompt** — a lightweight prompt appears asking if you want to assign a hotkey to the new window. Accept to register it, dismiss to skip.
+- **Completely opt-in** — this feature is disabled by default. Enable it in Preferences under **App Shortcuts → "Prompt to register new windows"** whenever you want it.
+- Perfect for power users who frequently open new windows and want every one of them shortcut-ready without any extra steps.
+
 ### Window Switcher (`⌥ /`)
 A Spotlight-style panel that lists all open windows across every app. It ships with a Vim-inspired modal interface:
 
