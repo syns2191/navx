@@ -2,12 +2,28 @@
 
 A lightweight macOS menu bar app for keyboard-driven window management. navx lets you instantly jump to any app or window, navigate virtual workspaces, and search open windows with a Vim-style interface — all without ever touching the mouse.
 
-![Preview](https://drive.google.com/uc?export=view&id=1-NI17CR6QnaVXbXbnwLZ9hG2cYra6A10)
+![Live Demo](https://github.com/user-attachments/assets/202efe64-3cad-45f0-a408-f63c329555bc)
 
 ## Features
 
 ### App Shortcuts
 Bind a global hotkey to any running application or specific window. Press the hotkey and navx instantly brings that window to focus, launching the app if it isn't already running.
+
+### Multi-Window App Shortcuts
+When you have multiple windows open from the same app — across different spaces or monitors — navx makes it effortless to jump between them. Instead of hunting through Mission Control or clicking the Dock repeatedly, you can bind shortcuts directly to individual windows of the same app and switch between them instantly.
+
+- **Jump between multiple windows of the same app** with dedicated per-window hotkeys — no more cycling through windows one by one.
+- **Works across different workspaces** — even if your windows are spread across multiple virtual spaces, navx reaches them all.
+- **See a list of all windows from the same app** so you always know what's open and where — pick the one you want in a single keypress.
+- Say goodbye to the headache of managing dozens of windows from the same app. navx keeps everything organized and one shortcut away.
+
+### New Window Detection *(optional)*
+navx can watch for newly opened windows in the background. When a new window appears, it immediately prompts you to register it as a shortcut — so you never have to manually go into Preferences to add it.
+
+- **Automatic detection** — navx listens for new windows the moment they open, across any app.
+- **Instant registration prompt** — a lightweight prompt appears asking if you want to assign a hotkey to the new window. Accept to register it, dismiss to skip.
+- **Completely opt-in** — this feature is disabled by default. Enable it in Preferences under **App Shortcuts → "Prompt to register new windows"** whenever you want it.
+- Perfect for power users who frequently open new windows and want every one of them shortcut-ready without any extra steps.
 
 ### Window Switcher (`⌥ /`)
 A Spotlight-style panel that lists all open windows across every app. It ships with a Vim-inspired modal interface:
